@@ -1,0 +1,2 @@
+less window200m.bed|while read i st end;do echo "perl pi.interval.pl 0.1 $st,$end spring/$i/Filter.$i.gz spring/$i/$i.$st.$end.gz 2>spring/$i/$i.$st.$end.err ">>ww.sh;done ##Filter.$i.gz is the snp vcf file
+less chr.len |while read chr aa end; do echo "zcat spring/$chr/$chr.*.*.gz >$chr/$chr.gz;perl windows_value_cal.pl $end 10000 2000 0.1 ECR/split/$chr.gz spring/$chr/$chr.gz spring/$chr/window_pi.$chr.xls;" >>ww2.sh;done

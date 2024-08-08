@@ -1,0 +1,8 @@
+genotypename:	merge.bed
+snpname:	merge.bim
+indivname:	merge.fam
+evecoutname:	all.eigenvectors
+evaloutname:	all.eigenvalues
+numoutevec:	10
+numoutlieriter:	0
+numthreads:	10
